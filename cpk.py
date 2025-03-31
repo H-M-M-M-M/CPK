@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Streamlit UI
-st.title("探头测试数据 CPK 计算")
+st.title("RFB/Thermal测试数据 CPK 计算")
 
 # 文件上传
 uploaded_file = st.file_uploader("上传 Excel 文件", type=["xlsx"])
